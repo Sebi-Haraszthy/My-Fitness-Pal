@@ -14,8 +14,7 @@ public class Product {
     }
 
     public static int computeCalories(int fat, int carbs, int proteins) {
-        int calories = fat + carbs + proteins;
-        return calories;
+        return fat + carbs + proteins;
     }
 
     public String toString() {
