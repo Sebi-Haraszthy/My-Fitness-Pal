@@ -1,4 +1,5 @@
 Calorie Counter Catalog
+	
 	Create the Product class
 	•	Attributes:
 		o	Product name
