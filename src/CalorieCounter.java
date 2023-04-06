@@ -65,9 +65,7 @@ public class CalorieCounter {
         int carbProduct = console.nextInt();
         System.out.print("Enter protein count: ");
         int proteinProduct = console.nextInt();
-
         Product.computeCalories(fatProduct, carbProduct, proteinProduct);
-
         System.out.println("Number of calories is: " + Product.computeCalories(fatProduct, carbProduct, proteinProduct));
     }
 

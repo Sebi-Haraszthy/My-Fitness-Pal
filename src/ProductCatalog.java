@@ -1,8 +1,8 @@
 import java.lang.reflect.Array;
 
 public class ProductCatalog {
-    Product[] products = new Product[30];
-    public static final int maxProducts = 30;
+    Product[] products = new Product[10];
+    public static final int maxProducts = 10;
     int addedProducts = 0;
 
     public void printProducts() {
@@ -24,6 +24,7 @@ public class ProductCatalog {
         } else {
             Array.set(products, addedProducts, product);
             addedProducts++;
+
             return true;
         }
     }
@@ -48,6 +49,7 @@ public class ProductCatalog {
                 products[i] = products[i + 1];
             }
             addedProducts--;
+
             return true;
         }
     }
@@ -60,6 +62,7 @@ public class ProductCatalog {
                 }
             }
         }
+
         return -1;
     }
 }
